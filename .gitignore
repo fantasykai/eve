@@ -3,10 +3,6 @@
 /.settings
 .ropeproject
 
-# Eve
-run.py
-settings.py
-
 # Python
 *.py[co]
 
