@@ -42,6 +42,9 @@ schema = {
     'born': {
         'type': 'datetime',
     },
+    'location': {
+        'type': 'point'
+    },
 }
 
 people = {
@@ -71,4 +74,3 @@ people = {
 DOMAIN = {
     'people': people,
 }
-
