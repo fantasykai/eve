@@ -42,7 +42,7 @@ schema = {
     'born': {
         'type': 'datetime',
     },
-    'location': {
+    'lbs': {
         'type': 'point'
     },
 }
