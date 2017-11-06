@@ -1,5 +1,8 @@
 MONGO_URI = 'mongodb://127.0.0.1:27017/apitest'
 
+URL_PREFIX = 'api'
+API_VERSION = 'v1'
+
 # Enable reads (GET), inserts (POST) and DELETE for resources/collections
 # (if you omit this line, the API will default to ['GET'] and provide
 # read-only access to the endpoint).
