@@ -1,4 +1,6 @@
 from eve import Eve
+
+#app = Eve()
 app = Eve(settings = 'settings.py')
 
 if __name__ == '__main__':
