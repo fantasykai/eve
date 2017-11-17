@@ -29,6 +29,9 @@ schema = {
         # 'lastname' is an API entry-point, so we need it to be unique.
         'unique': True,
     },
+    'age': {
+        'type': 'integer',
+    },
     # 'role' is a list, and can only contain values from 'allowed'.
     'role': {
         'type': 'list',
