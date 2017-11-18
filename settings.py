@@ -1,9 +1,10 @@
 from config.nosqlcfg import mongodb
+from config.config import api_cfg
 
 MONGO_URI = mongodb['url']
 
-URL_PREFIX = 'api'
-API_VERSION = 'v1'
+URL_PREFIX = api_cfg['url_prefix']
+API_VERSION = api_cfg['api_version']
 
 # Enable reads (GET), inserts (POST) and DELETE for resources/collections
 # (if you omit this line, the API will default to ['GET'] and provide
