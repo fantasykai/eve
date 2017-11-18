@@ -1,4 +1,6 @@
-MONGO_URI = 'mongodb://127.0.0.1:27017/apitest'
+from config.nosqlcfg import mongodb
+
+MONGO_URI = mongodb['url']
 
 URL_PREFIX = 'api'
 API_VERSION = 'v1'
