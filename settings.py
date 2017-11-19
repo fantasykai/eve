@@ -6,6 +6,8 @@ MONGO_URI = mongodb['url']
 URL_PREFIX = api_cfg['url_prefix']
 API_VERSION = api_cfg['api_version']
 QUERY_WHERE = 'where'
+JSON = True
+XML = False
 # Enable reads (GET), inserts (POST) and DELETE for resources/collections
 # (if you omit this line, the API will default to ['GET'] and provide
 # read-only access to the endpoint).
